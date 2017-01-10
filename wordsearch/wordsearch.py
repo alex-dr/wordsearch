@@ -12,7 +12,9 @@ def generate_random_board(n=9):
 
 
 def print_board(board):
-    print('\n'.join(map(lambda x: ' '.join(x), board)))
+    print('---' + '--'*len(board[0]))
+    print('\n'.join(map(lambda x: '| ' + ' '.join(x) + ' |', board)))
+    print('---' + '--'*len(board[0]))
 
 
 def read_board(content):
@@ -100,7 +102,8 @@ def main(valid_words, *args):
     with open('test.txt', 'r') as content:
         board = read_board(content)
 
-    board = generate_random_board(n=100)
+    board = generate_random_board(n=15)
+    print_board(board)
 
     solved_board = solve_board(valid_words, board)
 
