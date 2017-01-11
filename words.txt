@@ -5810,8 +5810,6 @@ boned
 bonehead
 boneheads
 boneless
-boner
-boners
 bones
 boney
 boneyer
@@ -19937,13 +19935,8 @@ fading
 fads
 faecal
 faeces
-fag
 fagged
 fagging
-faggot
-faggots
-fagot
-fagots
 fags
 fail
 failed
