@@ -99,9 +99,6 @@ def solve_board(valid_words, board):
 
 
 def main(valid_words, *args):
-    with open('test.txt', 'r') as content:
-        board = read_board(content)
-
     board = generate_random_board(n=15)
     print_board(board)
 
